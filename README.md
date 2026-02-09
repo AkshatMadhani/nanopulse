@@ -1,4 +1,4 @@
-# 🚀 NanoPulse — Low-Latency Matching & Market Making Engine  
+# NanoPulse — Low-Latency Matching & Market Making Engine  
 
 NanoPulse is a **Go-based exchange-style matching engine and order management system (OMS)** designed to simulate real-world trading infrastructure.  
 
