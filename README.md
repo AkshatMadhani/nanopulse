@@ -90,17 +90,20 @@ You can see in the logs:
 ```
 NanoPulse/
 │── backend/
-│   ├── cmd/
-│   │   └── server/main.go
-│   ├── internal/
-│   │   ├── engine/
-│   │   ├── orderbook/
-│   │   ├── marketmaker/
-│   │   └── monitor/
-│   └── api/
+│ ├── api/
+│ ├── configs/
+│ ├── engine/
+│ ├── logger/
+│ ├── market/
+│ ├── monitor/
+│ ├── scripts/
+│ ├── simulator/
+│ ├── go.mod
+│ ├── go.sum
+│ └── main.go
 │
-│── frontend/   
 │── docs/
+│── frontend/
 │── README.md
 
 ```
