@@ -1,0 +1,28 @@
+server:
+  port: 8080
+  log_level: info
+
+matching_engine:
+  order_buffer_size: 10000
+
+monitor:
+  latency_threshold_us: 200
+  queue_threshold: 8000
+  window_size: 100
+  check_interval_sec: 2
+  spread_threshold_pct: 0.1
+
+market_maker:
+  default_spread: 2.0
+  quote_interval_sec: 3
+  initial_qty: 10
+
+simulator:
+  enabled: false
+  orders_per_sec: 10
+  symbols:
+    - RELIANCE
+    - TCS
+    - INFY
+    - HDFC
+    - ICICI
